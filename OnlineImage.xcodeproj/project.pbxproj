@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA37D38A184DA28F0059088F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA37D389184DA28F0059088F /* UIKit.framework */; };
+		FA37D38C184DA28F0059088F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA37D38B184DA28F0059088F /* Foundation.framework */; };
+		FA37D38E184DA28F0059088F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA37D38D184DA28F0059088F /* CoreGraphics.framework */; };
+		FA37D394184DA28F0059088F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA37D392184DA28F0059088F /* InfoPlist.strings */; };
+		FA37D396184DA28F0059088F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37D395184DA28F0059088F /* main.m */; };
+		FA37D39A184DA28F0059088F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37D399184DA28F0059088F /* AppDelegate.m */; };
+		FA37D39C184DA28F0059088F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA37D39B184DA28F0059088F /* Default.png */; };
+		FA37D39E184DA28F0059088F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA37D39D184DA28F0059088F /* Default@2x.png */; };
+		FA37D3A0184DA28F0059088F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA37D39F184DA28F0059088F /* Default-568h@2x.png */; };
+		FA37D3A3184DA28F0059088F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37D3A1184DA28F0059088F /* MainStoryboard.storyboard */; };
+		FA37D3A6184DA28F0059088F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37D3A5184DA28F0059088F /* ViewController.m */; };
+		FA37D3AE184DA2900059088F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA37D3AD184DA2900059088F /* SenTestingKit.framework */; };
+		FA37D3AF184DA2900059088F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA37D389184DA28F0059088F /* UIKit.framework */; };
+		FA37D3B0184DA2900059088F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA37D38B184DA28F0059088F /* Foundation.framework */; };
+		FA37D3B8184DA2900059088F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA37D3B6184DA2900059088F /* InfoPlist.strings */; };
+		FA37D3BB184DA2900059088F /* OnlineImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37D3BA184DA2900059088F /* OnlineImageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA37D3B1184DA2900059088F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA37D37E184DA28F0059088F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA37D385184DA28F0059088F;
+			remoteInfo = OnlineImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA37D386184DA28F0059088F /* OnlineImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA37D389184DA28F0059088F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA37D38B184DA28F0059088F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA37D38D184DA28F0059088F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA37D391184DA28F0059088F /* OnlineImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnlineImage-Info.plist"; sourceTree = "<group>"; };
+		FA37D393184DA28F0059088F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA37D395184DA28F0059088F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA37D397184DA28F0059088F /* OnlineImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnlineImage-Prefix.pch"; sourceTree = "<group>"; };
+		FA37D398184DA28F0059088F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA37D399184DA28F0059088F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA37D39B184DA28F0059088F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA37D39D184DA28F0059088F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA37D39F184DA28F0059088F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA37D3A2184DA28F0059088F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FA37D3A4184DA28F0059088F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA37D3A5184DA28F0059088F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA37D3AC184DA2900059088F /* OnlineImageTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineImageTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA37D3AD184DA2900059088F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA37D3B5184DA2900059088F /* OnlineImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnlineImageTests-Info.plist"; sourceTree = "<group>"; };
+		FA37D3B7184DA2900059088F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA37D3B9184DA2900059088F /* OnlineImageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnlineImageTests.h; sourceTree = "<group>"; };
+		FA37D3BA184DA2900059088F /* OnlineImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlineImageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA37D383184DA28F0059088F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA37D38A184DA28F0059088F /* UIKit.framework in Frameworks */,
+				FA37D38C184DA28F0059088F /* Foundation.framework in Frameworks */,
+				FA37D38E184DA28F0059088F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA37D3A8184DA2900059088F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA37D3AE184DA2900059088F /* SenTestingKit.framework in Frameworks */,
+				FA37D3AF184DA2900059088F /* UIKit.framework in Frameworks */,
+				FA37D3B0184DA2900059088F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA37D37D184DA28F0059088F = {
+			isa = PBXGroup;
+			children = (
+				FA37D38F184DA28F0059088F /* OnlineImage */,
+				FA37D3B3184DA2900059088F /* OnlineImageTests */,
+				FA37D388184DA28F0059088F /* Frameworks */,
+				FA37D387184DA28F0059088F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA37D387184DA28F0059088F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA37D386184DA28F0059088F /* OnlineImage.app */,
+				FA37D3AC184DA2900059088F /* OnlineImageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA37D388184DA28F0059088F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA37D389184DA28F0059088F /* UIKit.framework */,
+				FA37D38B184DA28F0059088F /* Foundation.framework */,
+				FA37D38D184DA28F0059088F /* CoreGraphics.framework */,
+				FA37D3AD184DA2900059088F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA37D38F184DA28F0059088F /* OnlineImage */ = {
+			isa = PBXGroup;
+			children = (
+				FA37D398184DA28F0059088F /* AppDelegate.h */,
+				FA37D399184DA28F0059088F /* AppDelegate.m */,
+				FA37D3A1184DA28F0059088F /* MainStoryboard.storyboard */,
+				FA37D3A4184DA28F0059088F /* ViewController.h */,
+				FA37D3A5184DA28F0059088F /* ViewController.m */,
+				FA37D390184DA28F0059088F /* Supporting Files */,
+			);
+			path = OnlineImage;
+			sourceTree = "<group>";
+		};
+		FA37D390184DA28F0059088F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA37D391184DA28F0059088F /* OnlineImage-Info.plist */,
+				FA37D392184DA28F0059088F /* InfoPlist.strings */,
+				FA37D395184DA28F0059088F /* main.m */,
+				FA37D397184DA28F0059088F /* OnlineImage-Prefix.pch */,
+				FA37D39B184DA28F0059088F /* Default.png */,
+				FA37D39D184DA28F0059088F /* Default@2x.png */,
+				FA37D39F184DA28F0059088F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA37D3B3184DA2900059088F /* OnlineImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA37D3B9184DA2900059088F /* OnlineImageTests.h */,
+				FA37D3BA184DA2900059088F /* OnlineImageTests.m */,
+				FA37D3B4184DA2900059088F /* Supporting Files */,
+			);
+			path = OnlineImageTests;
+			sourceTree = "<group>";
+		};
+		FA37D3B4184DA2900059088F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA37D3B5184DA2900059088F /* OnlineImageTests-Info.plist */,
+				FA37D3B6184DA2900059088F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA37D385184DA28F0059088F /* OnlineImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA37D3BE184DA2900059088F /* Build configuration list for PBXNativeTarget "OnlineImage" */;
+			buildPhases = (
+				FA37D382184DA28F0059088F /* Sources */,
+				FA37D383184DA28F0059088F /* Frameworks */,
+				FA37D384184DA28F0059088F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineImage;
+			productName = OnlineImage;
+			productReference = FA37D386184DA28F0059088F /* OnlineImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA37D3AB184DA2900059088F /* OnlineImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA37D3C1184DA2900059088F /* Build configuration list for PBXNativeTarget "OnlineImageTests" */;
+			buildPhases = (
+				FA37D3A7184DA2900059088F /* Sources */,
+				FA37D3A8184DA2900059088F /* Frameworks */,
+				FA37D3A9184DA2900059088F /* Resources */,
+				FA37D3AA184DA2900059088F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA37D3B2184DA2900059088F /* PBXTargetDependency */,
+			);
+			name = OnlineImageTests;
+			productName = OnlineImageTests;
+			productReference = FA37D3AC184DA2900059088F /* OnlineImageTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA37D37E184DA28F0059088F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Emory;
+			};
+			buildConfigurationList = FA37D381184DA28F0059088F /* Build configuration list for PBXProject "OnlineImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA37D37D184DA28F0059088F;
+			productRefGroup = FA37D387184DA28F0059088F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA37D385184DA28F0059088F /* OnlineImage */,
+				FA37D3AB184DA2900059088F /* OnlineImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA37D384184DA28F0059088F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA37D394184DA28F0059088F /* InfoPlist.strings in Resources */,
+				FA37D39C184DA28F0059088F /* Default.png in Resources */,
+				FA37D39E184DA28F0059088F /* Default@2x.png in Resources */,
+				FA37D3A0184DA28F0059088F /* Default-568h@2x.png in Resources */,
+				FA37D3A3184DA28F0059088F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA37D3A9184DA2900059088F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA37D3B8184DA2900059088F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA37D3AA184DA2900059088F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA37D382184DA28F0059088F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA37D396184DA28F0059088F /* main.m in Sources */,
+				FA37D39A184DA28F0059088F /* AppDelegate.m in Sources */,
+				FA37D3A6184DA28F0059088F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA37D3A7184DA2900059088F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA37D3BB184DA2900059088F /* OnlineImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA37D3B2184DA2900059088F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA37D385184DA28F0059088F /* OnlineImage */;
+			targetProxy = FA37D3B1184DA2900059088F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA37D392184DA28F0059088F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA37D393184DA28F0059088F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA37D3A1184DA28F0059088F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA37D3A2184DA28F0059088F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FA37D3B6184DA2900059088F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA37D3B7184DA2900059088F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA37D3BC184DA2900059088F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FA37D3BD184DA2900059088F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA37D3BF184DA2900059088F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnlineImage/OnlineImage-Prefix.pch";
+				INFOPLIST_FILE = "OnlineImage/OnlineImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA37D3C0184DA2900059088F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnlineImage/OnlineImage-Prefix.pch";
+				INFOPLIST_FILE = "OnlineImage/OnlineImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA37D3C2184DA2900059088F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OnlineImage.app/OnlineImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnlineImage/OnlineImage-Prefix.pch";
+				INFOPLIST_FILE = "OnlineImageTests/OnlineImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA37D3C3184DA2900059088F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OnlineImage.app/OnlineImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnlineImage/OnlineImage-Prefix.pch";
+				INFOPLIST_FILE = "OnlineImageTests/OnlineImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA37D381184DA28F0059088F /* Build configuration list for PBXProject "OnlineImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA37D3BC184DA2900059088F /* Debug */,
+				FA37D3BD184DA2900059088F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA37D3BE184DA2900059088F /* Build configuration list for PBXNativeTarget "OnlineImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA37D3BF184DA2900059088F /* Debug */,
+				FA37D3C0184DA2900059088F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA37D3C1184DA2900059088F /* Build configuration list for PBXNativeTarget "OnlineImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA37D3C2184DA2900059088F /* Debug */,
+				FA37D3C3184DA2900059088F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA37D37E184DA28F0059088F /* Project object */;
+}
